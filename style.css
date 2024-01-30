@@ -1,0 +1,649 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    /* position: fixed; */
+    /* width: 1200px !important; */
+    /* width: 100%; */
+    background-color: #01324e;
+    /* background-image: 180deg, #054d77 0%, #01131e 100%; */
+    /* margin-top: 10; */
+    /* padding-top: 10 !important; */
+    border: 1px solid black;
+    /* border: 5px solid black; */
+}
+.headSection .brandLogo{
+    margin-left: 30px;
+}
+.navbar{
+    color: white;
+    font-family:Lexend Deca;
+    margin-top: 15px;
+}
+.navbar a{
+    color: white;
+    margin-left: 20px;
+    margin-top: -20px;
+    text-decoration: none;
+}
+.headSection .btnLink{
+    margin-right: 90px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;    
+    /* border: 1px solid black; */
+    width: 400px;
+}
+.headSection .btnLink a{
+    margin-left: 20px;
+}
+.headSection .btnLink .loginBtn{
+    width: 100px;
+    background-color: /*#FFCA46*/#eda404 !important;
+    font-weight: 600;
+    color: black;
+}
+.headSection .btnLink .signUpbtn{
+    background-color: #fff !important;
+    font-weight: 600;
+}
+.mainContainer{
+    background-image: url(https://edzorblaw.com/wp-content/uploads/2022/12/Rectangle-11-1.png),linear-gradient(180deg, #013b5d 0%, #002033 100%);
+    min-height: 452px;
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+    /* padding: -10px; */
+}
+.mainContainer .textContent{
+
+    width: 45%;
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    margin-right: 350px;
+    margin-top: 40px;
+}
+.mainContainer .textContent h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+}
+.mainContainer .textContent h6{
+    color: white;
+    font-size: 20px;
+}
+.mainContainer .textContent p{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    width: fit-content;
+    color: #000;
+    font-family:Lexend Deca;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 10px #fff;
+    
+}
+.mainContainer .imgContent{
+    /* position: relative; */
+    /* right: 20; */
+    /* margin-left: 30px; */
+    width: 40%;
+    height: 450px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 0px;
+    /* opacity: 0.7; */
+}
+.mainContainer .imgContent img{
+    /* width: %; */
+    height: 100%;
+    width: 100%;
+}
+.mainContainer .imgContent {
+    
+}
+.footerContent{
+height: 50px;
+background-color: rgb(0,0,0);
+color: white;
+font-family:Lexend Deca;
+text-align: center;
+padding: 10px;
+}
+.footerContent img{
+    height: 50%;
+}
+.tagline{
+    height: 260px;
+    border: 1px solid black;
+    background-image: url('./images/BG-1.png');
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.tagline h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:Albert Sans;
+    color: #01324E;
+    font-weight: 900;
+    margin-top: 40px;   
+}
+.tagline img{
+    height: 130px;
+}
+.contentBox{
+    height: 605px;
+    width: 1050px;
+    /* margin-left: auto; */
+    margin: auto;
+    /* margin-right: 0; */
+    /* border: 1px solid black; */
+    border-radius: 100px;
+    /* margin-top: -100px; */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 6px -4px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    margin-bottom: 40px;
+}
+.contentBoxOne{
+    margin-top: -100px;
+}
+.contentBoxpart2{
+
+}
+.contentBox .bookContainer{
+    width: 360px;
+    height: 510px;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    margin-top: 45px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,.23) !important;
+}
+.contentBox .bookContainer img{ 
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+}
+.contentBox .bookContainer .changeImageBtn{
+    margin-left: 100px;
+}
+.contentBox .bookContainer .changeImageBtn i{
+     z-index: 500;
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    color: black; 
+}
+.bookTextContainer{
+    margin-left: 30px;
+    width: 570px;
+    height: 420px;
+    /* border: 1px solid black; */
+    font-family:Albert Sans;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    /* text-align: center; */
+}
+.bookTextContainer h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.bookTextContainer li{
+    margin: 10px;
+    font-size: 18px;
+}
+.bookTextContainer .downloadBtn{
+    background-color: #01324E;
+    padding: 11px 41px;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.bookTextContainer .downloadBtn i{
+    font-size: 20px;
+}
+.bookTextContainer .pdfCover{
+    width: 500px;
+    /* border: 1px solid black; */
+    display: none;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.bookTextContainer .pdfCover a {
+    text-decoration: none;
+}
+
+.bookTextContainer .pdfCover a .div{
+    width: 166px;
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+.bookTextContainer .pdfCover a .div .text{
+    /* text-decoration: none; */
+    color:#555555;
+    text-decoration: none;
+}
+
+
+.bookTextContainer .pdfCover p{
+    color: rgba(255,255,255,.5);
+   
+}
+
+.bookTextContainer .pdfContainer {
+ display: flex;
+ width: 350px;
+ /* border: 1px solid black; */
+ justify-content: space-between;
+}
+.mentorShip{
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    background-image: url("images/bg-4.png");
+}
+.mentorShip .block{
+    height: 465px;
+    width: 465px;
+    /* border: 1px solid black; */
+    background-image: url("images/free-mentorship-new-changess.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,.23) !important;
+}
+.mentorShip .textBlock{
+    height: 495px;
+    width: 550px;
+    /* border: 1px solid black; */
+    font-family:Albert Sans;
+    font-weight: 100;
+    margin-left: 30px;
+}
+.mentorShip .textBlock h4{
+    font-size: 30px;
+    color: rgb(23, 57, 71);
+    margin-top: 70px;
+}
+.mentorShip .textBlock button{
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #003350!important;
+    color: #fff;
+}
+.mentorShip .textBlock span{
+    color: rgb(1, 50, 78);
+    font-size: 25px;
+    font-weight: 900;
+}
+.mentorShip .textBlock .avatarimgContainer{
+    margin-top: 20px;
+}
+.strikeRateContainer{
+    margin-top: 100px;
+    height: 200px;
+    /* height: 200px; */
+    /* min-height: 585px; */
+    background-image: url("images/blurbg-5.png");
+    /* border: 1px solid black; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.strikeRateContainer h1{
+font-size: 50px;
+margin-top: 32px;
+}
+.strikeRateContainer img{
+    height: 150px;
+}
+.strikeRateShapeContainer{
+    width:950px ;
+    min-height: 400px;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+.strikeRateShapeContainer .shapesContentContainer{
+    margin-top: 60px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    margin: 60px auto auto;
+    width: 300px;
+}
+ .strikeRateShapeContainer .shapesContentContainer .shapes{
+    /* color: white; */
+    height: 250px;
+    width: 300px;
+    /* background: linear-gradient(180deg, #004166 0%, #002033 100%), linear-gradient(180deg, #0E4B58 0%, #0F5F70 100%); */
+    border-radius: 50px;
+    background: url("images/BG-1.png");
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    /* margin-left: -30px; */
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.strikeRateShapeContainer .shapesContentContainer .shapes .img1{
+    height: 110px;
+    width: 180px;
+    margin-top: 5px;
+}
+.strikeRateShapeContainer .shapesContentContainer .shapes .img2{
+    height: 50px;
+    width: 250px;
+}
+.strikeRateShapeContainer .shapesContentContainer .shapes h4{
+    margin-top: -42px;
+    font-family:Lexend Deca;
+    color: black;
+}
+.strikeRateShapeContainer .shapesContentContainer .shapes button{
+    background-color: #003350;
+    width: 120px;
+    border-radius: 10px;
+    margin: auto;
+    color: white;
+}
+.testimonal{
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url("images/bg-12.png");
+    background-size: cover;
+}
+.testimonal .testimonialText{
+    display: flex;
+    justify-content: center;
+}
+.testimonal .testimonialText h1{
+    font-size: 50px;
+    margin-top: 70px;
+    /* color: red; */
+}
+.testimonal .testimonialText img{
+    height: 150px;
+    margin-top: 20px;
+}
+.testimonalContainer{
+    height: 471px;
+    width: 320px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,.23) !important;
+    margin: auto;
+    margin-top: 20px;
+    /* padding-top: 20px; */
+    padding: 20px;
+}
+.testimonalContainer .circleContainer{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 1px solid black; */
+    margin: auto;
+    padding-top: 20px;
+    /* padding-top: 20px; */
+    /* margin-top: 30px; */
+    /* background-image: url("https://edzorblaw.com/wp-content/uploads/2023/07/icons2-avatars-39-300x300.png"); */
+    background-size: cover;
+    /* conten */
+}
+.testimonalContainer .circleContainer img{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 50px; */
+    /* border: 1px solid black; */
+    margin: 0px;
+
+}
+.testimonalContainer:hover{
+cursor: pointer;
+}
+
+
+.testimonalContainer img{
+    display: block;
+    height: 20px;
+    margin: 30px auto;
+}
+.testimonalContainer p{
+}
+.testimonialContainerForContent{
+    margin: auto;
+    width: 1000px;
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    display: flex;
+    /* marging */
+    /* justify-content: center; */
+}
+.testimonalContainer h4{
+color: #777;
+text-align: center;
+}
+.testimonalContainer audio{
+    margin-top: 30px;
+    width: 280px;
+    text-align: center;
+    margin:30px auto;
+}
+.edzorbLaw{
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-top: 390px;
+    background-image: url("https://edzorblaw.com/wp-content/uploads/2023/05/blur-1024x105.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.edzorbLaw h1{
+    margin-top: 50px;
+    font-family:Albert Sans;
+    font-size: 50px;
+}
+.edzorbLaw img{
+    height: 140px;   
+}
+.edzorbLawContainer{
+    height: 326px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-self: center;
+    font-family: Quicksand;
+    font-weight: 1100;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.edzorbLawContainer h5{
+    /* font-weight: bolder; */
+    font-weight: 1000;
+}
+.edzorbLawContainer p{
+    color: #777;
+    /* font-family: averta !important; */
+}
+.edzorbLawContainer .edzorbLawContent{
+    height: 390px;
+    width: 250px;
+    margin: -133px auto;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.23) !important;
+}
+.lawCircle{
+    height: 180px;
+    width: 180px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: 20px auto;
+    /* background-image: url("https://edzorblaw.com/wp-content/uploads/2023/08/podcast-red-icon.png"); */
+    /* background-size: 30px 20px; */
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px #fff;
+    object-fit: cover;
+    text-align: center;
+    /* overflow: hidden;*/
+}
+.lawCircle img{
+    margin-top: 30px;
+    height: 100px;
+    width: 130px;
+}
+.edzorbLawContent h5,p{
+    text-align: center;
+}
+.getStartedTodayLiContainer h4{
+    color: #5772ff;
+}
+.getStartedTodayLiContainer li{
+    list-style-type: none;
+    text-align: left;
+    font-size: 18px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.getStartedContainer:hover{
+    background-color: #014267;
+    color: white;
+}
+.whyEdzorbLawContainer{
+    height: 835px;
+    background-color: #01324e;
+    border: 1px solid black;
+}
+.whyEdzorbLawContainer .heading{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+.whyEdzorbLawContainer .textContainer{
+    width: 540px;
+    color: white;
+    border: 1px solid black;
+}
+.footer{
+    height: 363px;
+    display: flex;
+    justify-content: space-between; 
+    background: linear-gradient(180deg, #004166 0%, #002033 100%), linear-gradient(180deg, #0E4B58 0%, #0F5F70 100%);
+    color: white;
+    /* margin-bottom: 20px; */
+    /* margin-right: 5px; */
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.footer .icons{
+    cursor: pointer;
+    line-height: 60px;
+    margin-top: -14px;
+
+}
+.footer .icons .logo{
+    width: 200px;
+    height: 60px;
+}
+.footer .icons h5{
+text-align: center;
+margin-top: 10px;
+font-size: 15px;
+}
+.footer  .button img{
+    width: 100px;
+}
+.footer .socialMediaIcons{
+    width: 150px;
+    margin: auto;
+}
+.footer .socialMediaIcons img{
+    width:30px;
+    margin-left: 10px;
+    transition: width 2s;
+}
+.footer .socialMediaIcons img:hover{
+    width: 40px;
+}
+.footer .popularCourses{
+    line-height: 45px;
+}
+.footer .Contact .otherLinks{
+    line-height: 45px;
+}
+.footer .otherLinks{
+    line-height: 52px;
+}
+.footer .otherLinks .content{
+    margin-top: 20px;
+}
+.footer .joinMentorShip{
+line-height: 75px;
+/* border: 1px solid black; */
+}
+.lastFooter{
+    height: 64px;
+    background: linear-gradient(180deg, #004166 0%, #002033 100%), linear-gradient(180deg, #0E4B58 0%, #0F5F70 100%);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.lastFooter .mainText{
+    color: white;
+    margin-left: 45px;
+}
+
+.lastFooter nav{
+    display: flex;
+    margin-right: 70px;
+}
+.lastFooter nav li{
+    list-style: none;
+}
+.lastFooter nav li a{
+    color: rgba(255,255,255,.5);
+    margin-left: 25px;
+    text-decoration: none;
+
+}
+.lastFooter nav li a:hover{
+    color: white;
+}
+.mimi{
+    height: 30px;
+    width: 90px;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
